@@ -1,2 +1,2 @@
-This repository contain's all the data of website
+This repository contain's all the code of website
 <br>
