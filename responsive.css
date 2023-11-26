@@ -1,7 +1,8 @@
 @media only screen and (max-width: 1140px)
 {
-    .nav-list{
+    .navlist{
         flex-direction: column;
+        color: white;
     }
     .navbar{
         height: 447px;
@@ -52,4 +53,5 @@
     .subtopnav-list{
         flex-direction: column;
     }
+    
 }

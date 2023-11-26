@@ -10,16 +10,15 @@ html{
     scroll-behavior: smooth;
 }
 .logo{
-    width:20%;
+    width:10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo img{
-    width: 26%;
-    border: 3px solid white;
-    border-radius: 50px;
-    margin: 5px;
+    width: 80%;
+    border-radius: 20px;
+    margin:5px;
 }
 .navbar{
     display :flex;
@@ -31,26 +30,49 @@ html{
     
 }
 
-.nav-list{
+.navlist{
     width: 70%; 
     display: flex; 
     align-items: center;
 }
 
-.nav-list li{
+.navlist li{
     list-style: none;
     padding: 26px 30px;
+    position: relative;
+    float: left;
 }
 
-.nav-list li a{
+.navlist li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
+    display: block;
 }
 
-.nav-list li a:hover{ 
+.navlist li a:hover{ 
     color: rgb(197, 194, 194);
+}
+
+.navlist li ul{
+    padding-top: 26px;
+    position:absolute;
+    width:170px;
+    background: black;
+    display: none;
+}
+
+.navlist li ul li{
+    width: 100%;
+}
+
+.navlist li ul li a{
+    font-size: 15px;
+}
+
+.navlist li:hover > ul{
+    display: initial;
 }
 
 .rightNav{ 
@@ -107,6 +129,9 @@ html{
 .text-small{
     font-size: 18px;
 }
+.text-small a{
+   color: white;
+}
 
 .btn{
     padding: 8px 20px;
@@ -118,6 +143,7 @@ html{
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
+    align-items: center;
 }
 
 .btn-sm{
@@ -171,9 +197,8 @@ html{
 .text-center{
 
     text-align: center;
-    padding-top: 30px;
-   font-family: 'Ubuntu', sans-serif;
-       font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
 }
 
 .form{
@@ -231,47 +256,23 @@ html{
     background-size: cover;
 }
 
-.subtopnav{
-    display :flex;
-    align-items: center;
-    justify-content: center;
-    position:sticky;
-    top:0;
-    cursor: pointer;
+.backgroundp2{
+    background-color: rgb(58, 56, 56);
 }
 
-.subtopnav-list{
-    width: 70%; 
-    display: flex; 
-    align-items: center;
-}
-
-.subtopnav-list li{
-    list-style: none;
-}
-
-.subtopnav-list li a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+.text1{
+    font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.subtopnav-list li a:hover{ 
-    color: rgb(197, 194, 194);
-}
-
-#submenu{
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    visibility: hidden;
-    z-index: 1;
+.text2{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
-    font-family: Verdana, sans-serif;
 }
 
-li:hover ul#submenu{
-    opacity: 1;
-    visibility: visible;
+.textbiglight{
+    font-size: 41px;
+    color:white;
 }
+
