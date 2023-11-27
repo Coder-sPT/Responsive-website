@@ -1,6 +1,6 @@
-@media only screen and (max-width: 1140px)
+@media only screen and (max-width: 803px)
 {
-    .navlist{
+    .nav-list{
         flex-direction: column;
         color: white;
     }
@@ -44,14 +44,4 @@
     .paras {
     padding: 0px;
     }
-    
-    .subtopnav{
-        height: 30px;
-        flex-direction: column;
-        transition: all 0.7s ease-out;
-    }
-    .subtopnav-list{
-        flex-direction: column;
-    }
-    
 }

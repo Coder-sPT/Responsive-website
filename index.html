@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="/responsive.css">
     <title>Coder's PT-Platform to learn coding</title>
 </head>
+<script>
+</script>
 <body>
-    <div class="navbar nav h-nav-resp">
+    <div class="navbar nav h-nav-resp" id="myTopnav">
         <div class="logo"><img src="/logo.jpg" alt="logo"></div>
-        <ul class="navlist v-class-resp">
+        <ul class="navList v-class-resp">
             <li><a href="/index.html">Home</a></li>
             <li><a href="">About</a></li>
             <li><a>Tutorials</a>
@@ -21,16 +23,23 @@
                     <li><a href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm"
                             target="_blank">PYTHON</a></li>
                     <li><a href="https://www.geeksforgeeks.org/java/?ref=shm" target="_blank">JAVA</a></li>
-                    <li><a href="/DKHTS.html">MORE</a></li>
+                    <li><a href="/Tutorials.html">MORE</a></li>
                 </ul>
             </li>
             <li><a href="#contact">Services</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </ul>
 
         <form class="rightNav v-class-resp" method="get" action="https://www.google.com/search" target="_blank">
             <input class="rightNav" type="text" name="q" size="40" maxlength="255" value="" />
             <input class="btn btn-sm" type="submit" value="Search" />
         </form>
+        
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </div>
 
     <div class="background firstSection">
