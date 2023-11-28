@@ -273,15 +273,7 @@ html{
 
 .textbiglight{
     font-size: 41px;
-    color:white;
-
-    .subtopnav{
-        height: 30px;
-        flex-direction: column;
-        transition: all 0.7s ease-out;
-    }
-    .subtopnav-list{
-        flex-direction: column;
-    }
+    color:white; 
 }
+
 
